@@ -31,3 +31,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 * Getting a random number: [Stackoverflow discussion](https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range/1527821)
 * [Collision handling idea](https://medium.com/letsboot/classic-arcade-game-with-js-5687e4125169)
 * [Font Awesome](https://fontawesome.com/get-started)
+* https://www.w3schools.com/tags/att_audio_autoplay.asp
