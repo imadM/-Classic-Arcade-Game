@@ -1,5 +1,3 @@
-
-
 //variables
 let points = 0;
 let pointsShow = document.querySelector("h2");
