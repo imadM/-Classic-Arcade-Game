@@ -11,7 +11,7 @@ Live version:
 
 ## Instructions
 
-1. Use Chrome or Firefox. I'm bot recommended Internet Explorer .
+1. Use Chrome or Firefox. I'm not recommended Internet Explorer .
 2. You can start moving around by using arrow keys:
 ``move up: ↑
 move down: ↓
