@@ -67,6 +67,8 @@ Player.prototype.update = function(dt) {
     liveCount.innerHTML = `Lives: 0`;
     alert("Ops! you lost all your lives");
     gameRestart();
+    this.reset();
+    this.lives = 5;
   }
 };
 
@@ -153,8 +155,6 @@ document.addEventListener("keyup", function(e) {
 });
 
 function gameRestart() {
-  player.reset();
-  player.lives = 5;
   if (points < 9000) {
     points = 0;
   }
