@@ -1,4 +1,3 @@
-//variables
 let points = 0;
 let pointsShow = document.querySelector("h2");
 pointsShow.innerHTML = `Points: 0`;
@@ -90,16 +89,10 @@ Player.prototype.handleInput = function(keyPress) {
     this.y += 80;
   }
   if (this.y < 20) {
-    setTimeout(function() {
-      player.x = 200;
-      player.y = 400;
-/**
-If I used this code , the playesr wont go back (eror)
-setTimeout(() => {
-    this.reset(); // you can just call the reset method here.
-}
-**/
-
+    setTimeout(() => {
+        this.reset();
+      this.x = 200;
+      this.y = 400;
       //If the user Win 10 times get 9000 points
       if (points === 9) {
         points += 9000;
