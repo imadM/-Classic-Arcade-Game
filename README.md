@@ -12,12 +12,13 @@ Live version:
 ## Instructions
 
 1. Use Chrome or Firefox. I'm not recommended Internet Explorer .
-2. You can start moving around by using arrow keys:
+2. If you are using a downloaded version, unzip the file and run _index.html_. The game is ready to play as soon as the page loads.
+3. You can start moving around by using arrow keys:
 ``move up: ↑
 move down: ↓
 move left: ←
 move right: →``
-3. In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
+4. In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
 
 ## Contributing
 
