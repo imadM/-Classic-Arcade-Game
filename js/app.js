@@ -93,6 +93,13 @@ Player.prototype.handleInput = function(keyPress) {
     setTimeout(function() {
       player.x = 200;
       player.y = 400;
+/**
+If I used this code , the playesr wont go back (eror)
+setTimeout(() => {
+    this.reset(); // you can just call the reset method here.
+}
+**/
+
       //If the user Win 10 times get 9000 points
       if (points === 9) {
         points += 9000;
